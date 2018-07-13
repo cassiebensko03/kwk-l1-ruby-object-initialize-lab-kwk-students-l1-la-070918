@@ -13,3 +13,4 @@ end
 dog_one = Dog.new("Stan", "Mutt")
 
 puts dog_one.name
+puts dog_one.breed
