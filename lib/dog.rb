@@ -6,12 +6,10 @@ class Dog
     
   @name=name
   
-  @breed=dog
+  @breed=breed
   
 end
 end 
-
-dog_one = Dog.new("Kermit")
+dog_one = Dog.new("Jenna", "Mutt")
 
 puts dog_one.name
-puts dog_one.breed
